@@ -230,8 +230,6 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const navMenu = document.getElementById("menu");
-            const searchIcon = document.getElementById("search_icon");
-            const searchBar = document.getElementById("search_bar");
             const menuIcon = document.getElementById("menu_icon");
             const closeIcon = document.querySelector(".closeIcon");
             const menuIconBars = document.querySelector(".menuIcon");
@@ -249,6 +247,9 @@
             }
 
             menuIcon.addEventListener("click", toggleMenu);
+
+            const searchIcon = document.getElementById("search_icon");
+            const searchBar = document.getElementById("search_bar");
 
             // Toggle search bar
             searchIcon.addEventListener("click", function (event) {

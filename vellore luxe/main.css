@@ -179,6 +179,7 @@ section {
   font-size: 15px;
   font-weight: 100;
   background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(45px);
   backdrop-filter: blur(45px);
   border: 1px solid white;
   border-radius: 30px;
@@ -394,7 +395,29 @@ span {
 }
 
 .mobile-footer {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.mobile-footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-footer ul li {
+  margin: 0 10px;
+}
+
+.mobile-footer a {
+  text-decoration: none;
+  color: black;
+  font-family: jost_light;
+  font-size: 1.2rem;
 }
 
 #image1 {
@@ -528,6 +551,12 @@ span {
     font-size: 2rem;
     font-weight: 100;
     white-space: nowrap;
+    -webkit-backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
     backdrop-filter: blur(100px);
     border-radius: 100px;
     border: 2px solid white;
